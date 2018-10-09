@@ -26,12 +26,6 @@ def create_distance_callback(dist_matrix):
   return distance_callback
 
 def main():
-  # Cities
-  # city_names = ["New York", "Los Angeles", "Chicago", "Minneapolis", "Denver", "Dallas", "Seattle",
-                # "Boston", "San Francisco", "St. Louis", "Houston", "Phoenix", "Salt Lake City"]
-  # Distance matrix
-
-
   tsp_size = len(city_names)
   num_routes = 1
   depot = 0
